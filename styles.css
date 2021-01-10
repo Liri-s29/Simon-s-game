@@ -62,13 +62,16 @@ body {
 .mob{
   display: none;
 }
-.footer{
-  
-}
 @media (max-width: 991px){
+  body{
+    margin-top: 23rem;
+  }
+  #level-title{
+    font-size: 3rem;
+  }
   .simons-game{
     font-size: 8rem;
-    top: 100px;
+    top: 0;
   }
   .container{
     width: 100%;
@@ -78,5 +81,9 @@ body {
   }
   .mob{
     display: inherit;
+  }
+  .btn{
+    width: 300px;
+    height: 300px;
   }
 }
