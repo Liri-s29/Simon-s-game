@@ -64,7 +64,7 @@ body {
 }
 @media (max-width: 991px){
   body{
-    margin-top: 23rem;
+    margin-top: 25rem;
   }
   #level-title{
     font-size: 3rem;
