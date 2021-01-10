@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+}
+
+#level-title {
+  font-size: 2rem;
+  margin:  5%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  border: 10px solid black;
+  border-radius: 20%;
+
+}
+
+.game-over {
+  background-color: rgba(255, 0, 0, 0.788);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 42, 42);
+}
+
+.green {
+  background-color: rgb(42, 128, 42);
+}
+
+.blue {
+  background-color: rgb(42, 42, 255);
+}
+
+.yellow {
+  background-color: rgb(255, 255, 42);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.simons-game{
+  font-size: 13rem;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.712);  
+}
+.mob{
+  display: none;
+}
+.footer{
+  
+}
+@media (max-width: 991px){
+  .simons-game{
+    font-size: 8rem;
+    top: 100px;
+  }
+  .container{
+    width: 100%;
+  }
+  .pc{
+    display: none;
+  }
+  .mob{
+    display: inherit;
+  }
+}
